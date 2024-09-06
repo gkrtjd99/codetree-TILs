@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    scanf("%d", n);
+    scanf("%d", &n);
 
     if (n >= 80)
         printf("pass");
