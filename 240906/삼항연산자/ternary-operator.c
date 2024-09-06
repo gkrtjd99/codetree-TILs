@@ -3,8 +3,8 @@
 int main() {
     int a;
     scanf("%d", &a);
-    a = a == 100 ? 1 : 0;
-    if(a)
+
+    if(a == 100 ? 1 : 0)
         printf("pass");
     else
         printf("failure");
