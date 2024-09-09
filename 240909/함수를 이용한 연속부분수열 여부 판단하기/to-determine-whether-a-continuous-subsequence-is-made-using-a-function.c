@@ -12,7 +12,7 @@ int main() {
     {
         while(j < b)
         {
-            if (i != j)
+            if (n1[i] != n2[j])
                 break;
             j++;
             i++;
