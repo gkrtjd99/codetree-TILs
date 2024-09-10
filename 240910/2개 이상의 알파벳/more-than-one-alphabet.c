@@ -19,7 +19,7 @@ int main() {
     int i = 0;
     while(c[i])
     {
-        if(c, c[i])
+        if(scan(c, c[i]))
         {
             printf("Yes");
             return 0;
