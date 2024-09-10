@@ -2,7 +2,7 @@
 
 int sw(int *a, int *b)
 {
-    if(a > b)
+    if(*a > *b)
     {
         *a += 25;
         *b *= 2;
