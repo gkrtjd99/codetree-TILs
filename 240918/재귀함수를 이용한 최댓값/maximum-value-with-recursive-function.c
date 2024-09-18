@@ -13,8 +13,8 @@ int max(int n, int *m, int p)
 
 int main() {
     int n, p = 0;
-    int *m = (int *)malloc(sizeof(int) * n);
     scanf("%d", &n);
+    int *m = (int *)malloc(sizeof(int) * n);
     for(int i = 0; i < n; i++)
         scanf("%d", &m[i]);
     printf("%d", max(n, m, p));
